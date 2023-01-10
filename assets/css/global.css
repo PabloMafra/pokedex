@@ -13,6 +13,16 @@ img{
     max-height: 20vh;
 }
 
+body::-webkit-scrollbar{
+    background:transparent;
+    width:10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(255, 221, 111);
+    border-radius:7px;
+}
+
 body{
    background:linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,93,144,1) 50%, rgba(0,212,255,1) 100%);
 }
